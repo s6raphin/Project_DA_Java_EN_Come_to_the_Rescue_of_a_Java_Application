@@ -23,6 +23,7 @@ java AnalyticsCounter symptoms.txt
 * FIXME11 : pas de fermeture du reader.
 * FIXME12 : problème lié au fixme4 et confusion sur headcount.
 * FIXME13 : même problème que sur le 4
+* FIXME19 : Faute de frappe
 
 ### Expliquer quelles solutions pourraient être apportées : 
 
@@ -39,6 +40,7 @@ java AnalyticsCounter symptoms.txt
 * FIXME11 : Fermeture du reader.
 * FIXME12 : Réglé par le FIXME 1.
 * FIXME13 : Réglé par le FIXME 1.
+* FIXME19 : Correction faute de frappe.
 
 
 ### Préparer une V1 du programme corrigé
