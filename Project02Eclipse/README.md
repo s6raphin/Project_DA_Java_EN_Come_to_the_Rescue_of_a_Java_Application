@@ -9,9 +9,29 @@
 * FIXME5 : sysout inutile de l'afficher dans la boucle.
 * FIXME6 : même problème que le 1.
 * FIXME7 : traiment globale de la boucle qui pourrait être gérée par une méthode.
-* FIXME8 traitement global de l'ecriture qui peut être traité pa rune méthode.	
+* FIXME8 : traitement global de l'ecriture qui peut être traité pa rune méthode.	
 * FIXME9 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.
 * FIXME10 : meme problème que le 1 conditionné sur 3 symptomes.	
-* FIXME11 :pas de fermeture de la boucle.
+* FIXME11 : pas de fermeture de la boucle.
 * FIXME12 : problème lié au fixme4 et confusion sur headcount.
 * FIXME13 : même problème que sur le 4
+
+## Expliquer quelles solutions pourraient être apportées : 
+
+* FIXME1 : Suppression des variables statiques, à remplacer par une liste de compteur de symptomes.
+* FIXME2 : Externaliser le chemin du fichier via les arguments du programme.
+* FIXME3 : A supprimer.
+* FIXME4 : Réglé par le FIXME 1.
+* FIXME5 : A supprimer.
+* FIXME6 : Réglé par le FIXME 1.
+* FIXME7 : Externalisé vers la classe ReadSymptomDataFromFile
+* FIXME8 : Externalisé vers la classe WriteSymptomDataToFile
+* FIXME9 : Externaliser le chemin du fichier via les arguments du programme.
+* FIXME10 : Réglé par le FIXME 1.
+* FIXME11 : Fermeture de la boucle.
+* FIXME12 : Réglé par le FIXME 1.
+* FIXME13 : Réglé par le FIXME 1.
+
+
+## Préparer une V1 du programme corrigé
+**TODO**

@@ -5,31 +5,31 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class AnalyticsCounter {
-	// FIXME 1 : il y a 3 compteurs spécifiques pour 3 symptomes hors la liste des symptomes n'est pas fixes.
+	// FIXME 1 : Suppression des variables statiques, à remplacer par une liste de compteur de symptomes.
 	private static int headacheCount = 0; // initialize to 0
 	private static int rashCount = 0; // initialize to 0
 	private static int pupilCount = 0; // initialize to 0
 
 	public static void main(String args[]) throws Exception {
 		// first get input
-		// FIXME 2 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.
+		// FIXME 2 : Externaliser le chemin du fichier via les arguments du programme.
 		BufferedReader reader = new BufferedReader(new FileReader("symptoms.txt"));
 		String line = reader.readLine();
-		// FIXME 3 : Le compteur i ne sert à rien. Pas utiliser après dans la boucle.
+		// FIXME 3 : A supprimer.
 		int i = 0; // set i to 0
 
-		// FIXME 4 : déclaration d'une variable en doublon pour le même symptome créé en paramètre de classe.
+		// FIXME 4 : Réglé par le FIXME 1.
 		int headCount = 0; // counts headaches
-		// FIXME 7 : traiment globale de la boucle qui pourrait être gérée par une méthode.
+		// FIXME 7 : Externalisé vers la classe ReadSymptomDataFromFile
 		while (line != null) {
 			i++; // increment i
 			System.out.println("symptom from file: " + line);
 
-			// FIXME 6 : même problème que le 1.
+			// FIXME 6 : Réglé par le FIXME 1.
 			if (line.equals("headache")) {
 				headCount++;
-				// FIXME 5 : sysout inutile de l'afficher dans la boucle.
-				//FIXME 13 : même problème que sur le 4
+				// FIXME 5 : A supprimer.
+				//FIXME 13 : Réglé par le FIXME 1.
 				System.out.println("number of headaches: " + headCount);
 			} else if (line.equals("rush")) {
 				rashCount++;
@@ -39,15 +39,16 @@ public class AnalyticsCounter {
 
 			line = reader.readLine(); // get another symptom
 		}
-		// FIXME 11 :pas de fermeture de la boucle.
+		// FIXME 11 :Fermeture de la boucle.
 		
-		// FIXME 8 traitement global de l'ecriture qui peut être traité pa rune méthode.
-		// FIXME 9 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.
-
+		// FIXME 8 Externalisé vers la classe WriteSymptomDataToFile
+		
+		
+		// FIXME 9 : Externaliser le chemin du fichier via les arguments du programme.
 		FileWriter writer = new FileWriter("result.out");
 		
-		// FIXME 10 : meme problème que le 1 conditionné sur 3 symptomes.
-		//FIXME 12 : problème lié au fixme4 et confusion sur headcount.
+		// FIXME 10 :Réglé par le FIXME 1.
+		//FIXME 12 : Réglé par le FIXME 1.
 		writer.write("headache: " + headacheCount + "\n");
 		writer.write("rash: " + rashCount + "\n");
 		writer.write("dialated pupils: " + pupilCount + "\n");
