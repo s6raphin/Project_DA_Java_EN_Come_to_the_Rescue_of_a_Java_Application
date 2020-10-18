@@ -10,11 +10,19 @@ public class AnalyticsCounter {
 	private static int rashCount = 0; // initialize to 0
 	private static int pupilCount = 0; // initialize to 0
 
+	/**
+	 * Méthode d'entrée du programme
+	 * 
+	 * @param args
+	 *        arguments du programme
+	 * @throws Exception
+	 */
 	public static void main(String args[]) throws Exception {
-		// first get input
-		// FIXME 2 : Externaliser le chemin du fichier via les arguments du programme.
-		BufferedReader reader = new BufferedReader(new FileReader("symptoms.txt"));
+		
+		String fileName = args[0];
+		BufferedReader reader = new BufferedReader(new FileReader(fileName));
 		String line = reader.readLine();
+		
 		// FIXME 3 : A supprimer.
 		int i = 0; // set i to 0
 
