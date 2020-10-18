@@ -33,9 +33,7 @@ public class AnalyticsCounter {
 			// FIXME 6 : Réglé par le FIXME 1.
 			if (line.equals("headache")) {
 				headCount++;
-				// FIXME 5 : A supprimer.
 				//FIXME 13 : Réglé par le FIXME 1.
-				System.out.println("number of headaches: " + headCount);
 			} else if (line.equals("rush")) {
 				rashCount++;
 			} else if (line.contains("pupils")) {
