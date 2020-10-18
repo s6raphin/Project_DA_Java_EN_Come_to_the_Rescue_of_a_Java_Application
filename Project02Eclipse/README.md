@@ -1,6 +1,14 @@
 # Sample project for OpenClassroom's fundamentals of Java
 
-## Lists of issues
+## Lancement programme
+
+```shell
+java AnalyticsCounter symptoms.txt
+```
+
+## Questions mentor
+
+### Lists of issues
 
 * FIXME1 : il y a 3 compteurs spécifiques pour 3 symptomes hors la liste des symptomes n'est pas fixes.	
 * FIXME2 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.	
@@ -16,7 +24,7 @@
 * FIXME12 : problème lié au fixme4 et confusion sur headcount.
 * FIXME13 : même problème que sur le 4
 
-## Expliquer quelles solutions pourraient être apportées : 
+### Expliquer quelles solutions pourraient être apportées : 
 
 * FIXME1 : Suppression des variables statiques, à remplacer par une liste de compteur de symptomes.
 * FIXME2 : Externaliser le chemin du fichier via les arguments du programme.
@@ -33,5 +41,5 @@
 * FIXME13 : Réglé par le FIXME 1.
 
 
-## Préparer une V1 du programme corrigé
+### Préparer une V1 du programme corrigé
 **TODO**
