@@ -36,7 +36,7 @@ public class AnalyticsCounter {
 				//FIXME 13 : Réglé par le FIXME 1.
 				
 				// FIXME 19 : Faute de frappe.
-			} else if (line.equals("rush")) {
+			} else if (line.equals("rash")) {
 				rashCount++;
 			} else if (line.contains("pupils")) {
 				pupilCount++;
