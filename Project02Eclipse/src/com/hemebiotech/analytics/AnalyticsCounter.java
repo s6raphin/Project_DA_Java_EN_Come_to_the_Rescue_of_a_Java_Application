@@ -34,6 +34,8 @@ public class AnalyticsCounter {
 			if (line.equals("headache")) {
 				headacheCount++;
 				//FIXME 13 : Réglé par le FIXME 1.
+				
+				// FIXME 19 : Faute de frappe.
 			} else if (line.equals("rush")) {
 				rashCount++;
 			} else if (line.contains("pupils")) {
