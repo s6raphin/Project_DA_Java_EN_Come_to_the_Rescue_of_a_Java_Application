@@ -20,7 +20,7 @@ java AnalyticsCounter symptoms.txt
 * FIXME8 : traitement global de l'ecriture qui peut être traité pa rune méthode.	
 * FIXME9 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.
 * FIXME10 : meme problème que le 1 conditionné sur 3 symptomes.	
-* FIXME11 : pas de fermeture de la boucle.
+* FIXME11 : pas de fermeture du reader.
 * FIXME12 : problème lié au fixme4 et confusion sur headcount.
 * FIXME13 : même problème que sur le 4
 
@@ -36,7 +36,7 @@ java AnalyticsCounter symptoms.txt
 * FIXME8 : Externalisé vers la classe WriteSymptomDataToFile
 * FIXME9 : Externaliser le chemin du fichier via les arguments du programme.
 * FIXME10 : Réglé par le FIXME 1.
-* FIXME11 : Fermeture de la boucle.
+* FIXME11 : Fermeture du reader.
 * FIXME12 : Réglé par le FIXME 1.
 * FIXME13 : Réglé par le FIXME 1.
 

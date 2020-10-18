@@ -42,7 +42,7 @@ public class AnalyticsCounter {
 
 			line = reader.readLine(); // get another symptom
 		}
-		// FIXME 11 :Fermeture de la boucle.
+		reader.close();
 		
 		// FIXME 8 Externalisé vers la classe WriteSymptomDataToFile
 		
