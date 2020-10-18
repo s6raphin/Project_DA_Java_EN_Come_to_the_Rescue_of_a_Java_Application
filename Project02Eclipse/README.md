@@ -1,1 +1,17 @@
-Sample project for OpenClassroom's fundamentals of Java
+# Sample project for OpenClassroom's fundamentals of Java
+
+## Lists of issues
+
+* FIXME1 : il y a 3 compteurs spécifiques pour 3 symptomes hors la liste des symptomes n'est pas fixes.	
+* FIXME2 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.	
+* FIXME3 : Le compteur i ne sert à rien. Pas utiliser après dans la boucle.	
+* FIXME4 : déclaration d'une variable en doublon pour le même symptome créé en paramètre de classe.	
+* FIXME5 : sysout inutile de l'afficher dans la boucle.
+* FIXME6 : même problème que le 1.
+* FIXME7 : traiment globale de la boucle qui pourrait être gérée par une méthode.
+* FIXME8 traitement global de l'ecriture qui peut être traité pa rune méthode.	
+* FIXME9 : le chemin du fichier n'est pas paramétrable. Ceci pose un problème de flexibilité.
+* FIXME10 : meme problème que le 1 conditionné sur 3 symptomes.	
+* FIXME11 :pas de fermeture de la boucle.
+* FIXME12 : problème lié au fixme4 et confusion sur headcount.
+* FIXME13 : même problème que sur le 4
