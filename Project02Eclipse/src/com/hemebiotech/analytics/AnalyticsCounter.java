@@ -23,8 +23,8 @@ public class AnalyticsCounter {
 		BufferedReader reader = new BufferedReader(new FileReader(fileName));
 		String line = reader.readLine();
 		
-		// FIXME 4 : Réglé par le FIXME 1.
-		int headCount = 0; // counts headaches
+		
+		
 		// FIXME 7 : Externalisé vers la classe ReadSymptomDataFromFile
 		while (line != null) {
 			
@@ -32,7 +32,7 @@ public class AnalyticsCounter {
 
 			// FIXME 6 : Réglé par le FIXME 1.
 			if (line.equals("headache")) {
-				headCount++;
+				headacheCount++;
 				//FIXME 13 : Réglé par le FIXME 1.
 			} else if (line.equals("rush")) {
 				rashCount++;
